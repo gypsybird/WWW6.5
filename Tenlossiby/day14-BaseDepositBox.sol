@@ -3,7 +3,7 @@
 
 pragma solidity ^0.8.0; 
 // 指定Solidity编译器版本为0.8.0或更高
-import "./IDepositBox.sol";
+import "./day14-IDepositBox.sol";
 // 导入IDepositBox接口合约，本合约将实现该接口定义的功能
 
 abstract contract BaseDepositBox is IDepositBox {
